@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">迷你记事本</string>
+<string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note">记录</string>
+    <string name="add_note">添加笔记</string>
+    <string name="action_delete_note">删除笔记</string>
+    <string name="action_search">搜索</string>
+    <string name="action_text_format">文本格式</string>
+    <string name="action_done">确定</string>
+    <string name="action_toggle_keyboard">展示键盘</string>
+    <string name="hint_write_note">在这写下你的笔记...</string>
+    <string name="action_delete_all">删除所有的笔记</string>
+    <string name="test">测试</string>
+    <string name="voice_hint">现在开始说</string>
+
+    <string name="eraseAll">清除所有</string>
+    <string name="brush">画笔颜色</string>
+    <string name="erase">橡皮檫</string>
+    <string name="paint">油漆</string>
+    <string name="action_draw">画画</string>
+
+    <!-- Used in MainActivity.java -->
+    <string name="search_hint">搜索笔记...</string>
+    <string name="confirmation">你确定吗？</string>
+    <string name="close_app">关闭app</string>
+    <string name="delete_note_number">删除笔记#%d</string>
+    <string name="note_deleted">笔记 #%d 已删除</string>
+    <string name="delete_notes_title">删除所有的笔记</string>
+    <string name="action_about">关于</string>
+    <string name="action_help">帮助</string>
+    <string name="help">"点击右下角按钮新建笔记，点击笔记进行修改，长按删除，点击画笔开始绘画，点击字体进行字体设置"</string>
+    <string name="delete_notes_success">所有的笔记已删除</string>
+    <string name="choose_activity">选择操作 for 笔记 #%d</string>
+
+    <!-- Used in NoteActivity.java -->
+    <string name="save_note_title">保存笔记</string>
+    <string name="save_note_confirmation">你想要保存修改吗?</string>
+    <string name="enter_title">输入标题（可选）</string>
+    <string name="share_note">分享</string>
+    <string name="delet_note">删除这条笔记</string>
+
+    <!-- Used in NoteAdapter.java -->
+    <string name="note_number">笔记 序号: %d</string>
+    <string name="note_has_no_text">该笔记没有文本</string>
+
+
+
+    <!-- Shared between MainActivity.java & NoteActivity.java -->
+    <string name="ok_button">确定</string>
+    <string name="cancel_button">取消</string>
+
+    <!-- Used in SaveOrUpdateNoteTask.java -->
+    <string name="toast_note_created">笔记已保存</string>
+    <string name="toast_note_updated">笔记已更新</string>
+    <string name="last_updated">最新更新时间</string>
+
+    <!-- Used in content_draw_panel.xml -->
+    <string name="draw_options">画图选项:</string>
+    <string name="brush_color">颜色:</string>
+    <string name="brush_size">粗细:</string>
+
+    <!-- Used in content_text_format.xml -->
+    <string name="text_color">文本颜色:</string>
+    <string name="style">风格:</string>
+        <string name="title_activity_about">关于</string>
+    <string name="qq">如有问题，请联系QQ：2427704299</string>
+</resources>
